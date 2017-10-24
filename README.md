@@ -60,8 +60,6 @@ If I'd do, I'd rather go with the open source variant Mycroft AI (https://mycrof
 
 ###  Configuration
 
-![aws-lambda-function-code.png](img/aws-lambda-function-code.png)
-
 * copy/paste the **source code** as below (or from [src/nextcloud-notes-lambda-function.js](src/nextcloud-notes-lambda-function.js)) into the function source textarea
 
     ```javascript
@@ -220,6 +218,9 @@ If I'd do, I'd rather go with the open source variant Mycroft AI (https://mycrof
 * adjust `Nextcloud endpoint URL` and `username` / `password`. I use https://www.blitter.se/utils/basic-authentication-header-generator/ for that.
 * click the `save` button
 
+![aws-lambda-function-code.png](img/aws-lambda-function-code.png)
+
+
 ###  Triggers
 
 On the triggers tab, select Alexa:
@@ -229,6 +230,12 @@ On the triggers tab, select Alexa:
 * select `Alexa Skills Set` and submit
 
 You're done with the backend.
+
+![aws-lambda-trigger.png](img/aws-lambda-trigger.png)
+
+![aws-lambda-trigger-add.png](img/aws-lambda-trigger-add.png)
+
+![aws-lambda-trigger-add-select.png](img/aws-lambda-trigger-add-select.png)
 
 
 ##  Frontend: Skill configuration
