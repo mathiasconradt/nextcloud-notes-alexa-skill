@@ -1,5 +1,7 @@
 # Nextcloud Notes Alexa Skill
 
+![![aws-lambda-function-code.png](img/aws-lambda-function-code.png)](img/alexa.jpg)
+
 This skill has three **intents**:
 * **about**: gives an introduction to the skill / Nextcloud Notes.
 * **read notes**: reads out all of your notes in Nextcloud.
