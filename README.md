@@ -7,6 +7,17 @@ This skill has three **intents**:
 * **read notes**: reads out all of your notes in Nextcloud.
 * **take a note**: take a new note and stores it in Nextcloud.
 
+The way to let Alexa read all notes, you would ask:
+
+** *"Alexa, ask Nextcloud to read my notes"* **
+
+If you want to take a new note, you would ask:
+
+** *"Alexa, ask Nextcloud to take a note: <your note here>"* **
+
+Note that Alexa is not (yet) actually intended to be used for free-text / transcription like this (according to the Alexa evangelists that were at the workshop that I joined).
+So, not all words might be recognized 100% correctly.
+
 **The following should be noted:**
 
 * This skill is just a quick & dirty code result of an Amazon Skills workshop I participated in, because I was curious about the status, possibilities and limitations of Alexa. It is not intended to be used in production.
