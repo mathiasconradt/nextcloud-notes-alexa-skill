@@ -1,0 +1,49 @@
+{
+  "intents": [
+    {
+      "name": "AboutIntent",
+      "samples": [
+        "about"
+      ],
+      "slots": []
+    },
+    {
+      "name": "AMAZON.CancelIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.HelpIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.StopIntent",
+      "samples": []
+    },
+    {
+      "name": "CreateNoteIntent",
+      "samples": [
+        "take a note {content}",
+        "create a note {content}",
+        "create a new note {content}",
+        "take a new note {content}"
+      ],
+      "slots": [
+        {
+          "name": "content",
+          "type": "AMAZON.Actor",
+          "samples": []
+        }
+      ]
+    },
+    {
+      "name": "GetNotesIntent",
+      "samples": [
+        "read my notes",
+        "read all notes",
+        "get my notes",
+        "get all notes"
+      ],
+      "slots": []
+    }
+  ]
+}
