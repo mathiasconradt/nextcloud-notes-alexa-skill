@@ -13,7 +13,7 @@ The way to let Alexa read all notes, you would ask:
 
 If you want to take a new note, you would ask:
 
-** *"Alexa, ask Nextcloud to take a note: <your note here>"* **
+** *"Alexa, ask Nextcloud to take a note: {your note here}"* **
 
 Note that Alexa is not (yet) actually intended to be used for free-text / transcription like this (according to the Alexa evangelists that were at the workshop that I joined).
 So, not all words might be recognized 100% correctly.
