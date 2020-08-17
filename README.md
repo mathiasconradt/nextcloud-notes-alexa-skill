@@ -26,9 +26,6 @@ So, not all words might be recognized 100% correctly.
 
 * the Nextcloud endpoint / url is currently hard-coded as well.
 
-* personally I don't own an Amazon Echo and don't plan to do so, because I don't like a device like this sitting in my living room, even though not everything you say goes into the cloud. I just don't see the benefit of it yet (at it's current status). At the moment, it's just a nice toy to play around with.
-If I'd do, I'd rather go with the open source variant Mycroft AI (https://mycroft.ai/), of which I hope that it will evolve and become better and better. At the time of writing, it's not yet as fast and accurate as Google Home, Alexa, etc. but on the other hand, it's open source and independently developed via a small startup and took off via a kickstarter campaign. Maybe I will have time to develop a Nextcloud Notes skill for Mycroft as well.
-
 
 ## Backend: Lambda function
 
